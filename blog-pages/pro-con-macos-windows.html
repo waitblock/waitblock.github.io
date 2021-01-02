@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog - The Pros and Cons of MacOS and Windows</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Blog</h1>
+</div>
+
+<div class="navbar">
+  <a href="/index.html">Home</a>
+  <a href="/blog.html">Blog</a>
+</div>
+
+<div class="row">
+  <div class="main">
+    <h2>The Pros and Cons of MacOS and Windows</h2>
+    <h5>Published January 2nd, 2021.</h5>
+    <p>Last year, I got my first MacBook and decided to make the switch to MacOS instead of installing Windows on the MacBook. I had never actually used any other operating system other than Windows up to that point. I had used Raspbian (a Linux distro for the Raspberry Pi based off of Debian) because I got a Raspberry Pi, but other than that, I hadn't used any other operating system. So let me tell you my pros and cons to each MacOS and Windows.</p>
+    <p>Let me start by telling you the general details and backstory for each operating system.</p>
+    <h3>Windows</h3>
+    <ul>
+    	<li>Made by <a href="https://www.microsoft.com/">Microsoft</a></li>
+    	<li>Runs on the <a href="https://en.wikipedia.org/wiki/Architecture_of_Windows_NT">NT kernel</a></li>
+    	<li>Flexible hardware options (i.e. the ability to run on any computer components)</li>
+    </ul>
+    <h3>MacOS</h3>
+    <ul>
+    	<li>Made by <a href="https://www.apple.com/">Apple</a></li>
+    	<li>Runs on a kernel based off of parts of <a href="https://en.wikipedia.org/wiki/Berkeley_Software_Distribution">BSD</a> and the <a href="https://en.wikipedia.org/wiki/XNU">XNU kernel</a> called <a href="https://en.wikipedia.org/wiki/Darwin_(operating_system)">Darwin</a></li>
+    	<li>Closed hardware options (i.e. can only be run on specific computer components)</li>
+    </ul>
+    <p>Windows is probably the most common operating system on personal computers at the time of writing, as it is included on most personal computers and has the ability to be installed on any hardware. In addition, the high support for software on Windows adds to the reasons why Windows is the most popular software. MacOS, on the other hand, can only be installed on Apple-specific devices. Even though there are ways to install MacOS onto a non-Apple piece of hardware, usually called a <a href="https://en.wikipedia.org/wiki/Hackintosh">Hackintosh</a>, most of the time these installations are too difficult for the end user.</p>
+    <p>But of course, there must be a rhyme or reason to why some people prefer MacOS over Windows even though MacOS has hardware limitations. Mac computers are based off of the BSD operating system, which is based off of <a href="https://en.wikipedia.org/wiki/Linux">Linux</a>. Linux has the advantage of being older and therefore being more secure and stable due to years of development. In addition, Linux has a simpler feature-set than Windows, meaning that there are less bugs to fix, thus leading to a more stable and secure operating system. In addition, with a Linux kernel you can poke around with the operating system in any way you want. This may not be too helpful to the common user, but for developers this is very helpful because you can change hidden files and such to test applications that require system privileges, etc. For the end user, this feature could be used to shutdown all of the system telemetry. On Windows, there is a switch to turn on sending data reports to Microsoft. But who knows if that switch <i>actually</i> turns off data reports? So, as you can see, even though it may seem like at first Windows would be the most obvious go-to operating system, MacOS has advantages in some areas where Windows lacks.</p>
+    <p>Below are the listed pros and cons for each operating system, which I will then summarize.</p>
+    <h3>Windows:</h3>
+    <h4>Pros:</h4>
+    <ul>
+    	<li>Flexible hardware options</li>
+    	<li>High support for software and hardware</li>
+    	<li>Gaming</li>
+    </ul>
+    <h4>Cons:</h4>
+    <ul>
+    	<li>High resource use (i.e. uses a lot of processing power)</li>
+    	<li>Poor security</li>
+    	<li>Poor stability</li>
+    </ul>
+    <p>As mentioned above, Windows is great because you have flexible hardware options and a high support for software. In addition to that, hardware vendors are forced to make their new components compatible with Windows because of the large market share that Windows holds for personal computer operating systems. Another advantage of Windows is the ability for high-resource games to run with good results. Since Windows can run on any hardware, it is commonly used to run high-resource games as the hardware prices for an Apple product with similar hardware specifications to run the same game could be way above the price point for the Windows computer. One problem with Windows is its high-resource usage. This is due to the fact which Microsoft claims is to allow for features that users wanted added to Windows to be used smoothly. However, very few people actually use those features. In addition, since Windows is jam-packed with features and such, there are many bugs which are yet to be fixed. However, this leads to bad security and bad stability compared to MacOS systems. If you are a Windows user, think about how many times you've had to restart your computer. This is because of all of the bugs that Microsoft is yet to fix.</p>
+    <h3>MacOS:</h3>
+    <h4>Pros:</h4>
+    <ul>
+    	<li>Good security</li>
+    	<li>Good stability</li>
+    	<li>Compatibility with other Apple devices/services</li>
+    	<li>Comes with useful (and free) productivity applications</li>
+    	<li>The ability to "poke" around in the system</li>
+    </ul>
+    <h4>Cons:</h4>
+    <ul>
+    	<li>High cost</li>
+    	<li>Closed hardware options</li>
+    	<li>Unappealing to the gaming industry</li>
+    	<li>Limited (and sometimes frustrating) hardware upgrades/repairs</li>
+    </ul>
+    <p>As said in the introduction, MacOS has good security and good stability due to its simpler user interface. In addition, it seamlessly integrates with other Apple devices/services via applications such as Airdrop, iCloud, etc. Also, as said above, developers have the ability to poke around in the system and test out features that might require integration with the system files, etc. However, not everything can be sunshine and daisies. Since MacOS can only run on specific hardware, and making a Hackintosh is very difficult, there is less appeal of Apple products to the gaming market because of the limited hardware options. In addition, as mentioned in the Windows summary, Apple hardware is generally very expensive compared to Windows hardware of similar specification. Since Apple creates the hardware, they're also the one who usually fixes the hardware. However, Apple repairs are often expensive, and sometimes deceiving. They may charge you more than needed to repair a product, and will often just ask you to buy another computer, which you will again, eventually need to repair or replace. Watch <a href="https://www.youtube.com/watch?v=o2_SZ4tfLns">this</a> video to learn more. That's also why many people find Apple product repairs frustrating and end up just leaving their Apple products unfixed, and continuing to use them despite some issues that may persist with their unfixed device.</p>
+    <br>
+    <p>Hopefully you found this blog post interesting and/or informational. Maybe I'm biased towards MacOS now, having used it for about half a year now. With that being said, I would like to thank you for reading my blog, and hope you read my next post!</p>  
+  </div>
+</div>
+
+</body>
+</html>
