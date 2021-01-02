@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Blog</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Blog</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="blog.html">Blog</a>
+</div>
+
+<div class="row">
+  <div class="main">
+    <h2>The Pros and Cons of MacOS and Windows</h2>
+    <h5>Published January 2nd, 2021.</h5>
+    <p>An article about MacOS and Windows, outlining the good things and bad things about them.</p>
+    <p>Last year, I got my first MacBook and decided to make the switch to MacOS instead of installing Windows on the MacBook. I had never actually used any other operating system other than Windows up to that point. I had used Raspbian (a Linux distro for the Raspberry Pi based off of Debian) because I got a Raspberry Pi, but other than that, I hadn't used any other operating system. So let me tell you my pros and cons to each MacOS and Windows.</p>
+    <p><a href="/blog-pages/pro-con-macos-windows.html">Read more</a></p>
+    <br>
+    <br>
+    <br>
+    <p><i>Last Updated January 2021 by waitblock (Ethan)</i></p>
+  </div>
+</div>
+
+</body>
+</html>
