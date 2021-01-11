@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Build Test - simpleSketch v1.0.2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+</style>
+<link rel="icon" type="image/png" href="https://i.ibb.co/hMfLj1G/favicon.png">
+</head>
+<body>
+
+<div class="header">
+  <h1>simpleSketch Build</h1>
+</div>
+
+<div class="navbar">
+  <a href="/index.html">Home</a>
+  <a href="/blog.html">Blog</a>
+  <a href="/projects.html">Projects</a>
+</div>
+
+<div class="row">
+  <div class="main">
+    <h2>Build Test for simpleSketch v1.0.2</h2>
+    <br>
+    <h4>Build Log:</h4>
+    <br>
+    <pre>
+      <code>
+        === Build Started: Project: simpleSketch, Configuration: Debug Generic CPU ===
+        Build started 11.01.2021 14:08:40.
+        Compliation:
+          /simpleSketch/simpleSketch.pde --no-config --no-warn
+        /simpleSketch/simpleSketch.pde --no-config --no-warn: No errors found
+
+        Build PASSED.
+
+        Time Elapsed 00:00:00.63
+        === Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ===
+      </code>
+    </pre>
+  </div>
+</div>
+
+</body>
+</html>
