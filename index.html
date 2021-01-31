@@ -4,102 +4,7 @@
 <title>waitblock</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
-
-
-.header {
-  padding: 80px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-}
-
-
-.header h1 {
-  font-size: 40px;
-}
-
-
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-
-
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
-
-.main {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-}
-
-
-@media screen and (max-width: 700px) {
-  .row {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width:100%;
-  }
-}
-
-.button{
-  border: 2px solid black;
-  color: white;
-  padding: 15px, 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 24px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button1 {background-color: #0285b5}
-.button2 {border-radius: 10px;}
-.button3 {width: 250px;}
-.button4 {height: 100px;}
-
-</style>
+<link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-512.png">
 </head>
 <body>
@@ -112,6 +17,7 @@ body {
   <a href="index.html">Home</a>
   <a href="blog.html">Blog</a>
   <a href="projects.html">Projects</a>
+  <a href="contact-me.html">Contact Me</a>
 </div>
 
 <div class="row">
@@ -119,43 +25,42 @@ body {
     <h2>About Me</h2>
     <p>Hi! My name is waitblock, but my name in real life is Ethan. When I'm not coding, I like reading, playing the piano, and hanging out with friends.</p>
     <br>
-    <img src="/media/profile_picture.png" alt="profile_picture">
+    <img src="/assets/profile_picture.png" alt="profile_picture">
   </div>
   <div class="main">
     <h2>What I'm working on right now: <a href="https://github.com/simpleSketch/simpleSketch">simpleSketch</a> and <a href="https://github.com/waitblock/MultiType">MultiType</a>.</h2>
     <h2>I'm currently learning: Java, HTML, and CSS.</h2>
-    <h2>I'm not avaliable for contact right now, but hopefully I will be soon!</h2>
     <br>
     <a href="https://github.com/waitblock"><button class="button button1 button2 button3 button4">View My Github Profile</button></a>
     <br>
     <br>
     <h2>Languages:</h2>
     <div class="row">
-      <a href="https://python.org/"><img src="/media/python_logo.png" width="100" height="100" alt="python_logo"></a>
-      <a href="https://www.oracle.com/java/"><img src="/media/java_logo.png" width="54" height="100" alt="java_logo"></a>
-      <a href="https://processing.org/"><img src="/media/processing_logo.jpg" width="100" height="100" alt="processing_logo"></a>
-      <a href="https://html.spec.whatwg.org/"><img src="/media/html_logo.png" width="100" height="100" alt="html_logo"></a>
-      <a href="https://www.w3.org/TR/CSS/"><img src="/media/css_logo.png" width="70" height="100" alt="css_logo"></a>
+      <a href="https://python.org/"><img src="/assets/python_logo.png" width="100" height="100" alt="python_logo"></a>
+      <a href="https://www.oracle.com/java/"><img src="/assets/java_logo.png" width="54" height="100" alt="java_logo"></a>
+      <a href="https://processing.org/"><img src="/assets/processing_logo.jpg" width="100" height="100" alt="processing_logo"></a>
+      <a href="https://html.spec.whatwg.org/"><img src="/assets/html_logo.png" width="100" height="100" alt="html_logo"></a>
+      <a href="https://www.w3.org/TR/CSS/"><img src="/assets/css_logo.png" width="70" height="100" alt="css_logo"></a>
     </div>
     <br>
     <br>
     <h2>Tools:</h2>
     <div class="row">
-      <a href="https://www.jetbrains.com/pycharm/"><img src="/media/pycharm_logo.png" width="100" height="100" alt="pycharm_logo"></a>
-      <a href="https://www.eclipse.org/eclipseide/"><img src="/media/eclipse_logo.png" width="107" height="100" alt="eclipse_logo"></a>
-      <a href="https://processing.org/reference/environment/"><img src="/media/processingide_logo.png" width="100" height="100" alt="processingide_logo"></a>
-      <a href="https://atom.io/"><img src="/media/atom_logo.png" width="100" height="100" alt="atom_logo"></a>
-      <a href="https://github.com"><img src="/media/github_logo.png" width="100" height="100" alt="github_logo"></a>
-      <a href="https://ktbyte.com/coder"><img src="/media/ktbyte_logo.png" width="100" height="100" alt="ktbyte_logo"></a>
-      <a href="https://pypi.org/"><img src="/media/pip_logo.png" width="133" height="100" alt="pip_logo"></a>
-      <a href="https://www.gnu.org/software/bash/"><img src="/media/bash_logo.png" width="100" height="100" alt="bash_logo"></a>
+      <a href="https://www.jetbrains.com/pycharm/"><img src="/assets/pycharm_logo.png" width="100" height="100" alt="pycharm_logo"></a>
+      <a href="https://www.eclipse.org/eclipseide/"><img src="/assets/eclipse_logo.png" width="107" height="100" alt="eclipse_logo"></a>
+      <a href="https://processing.org/reference/environment/"><img src="/assets/processingide_logo.png" width="100" height="100" alt="processingide_logo"></a>
+      <a href="https://atom.io/"><img src="/assets/atom_logo.png" width="100" height="100" alt="atom_logo"></a>
+      <a href="https://github.com"><img src="/assets/github_logo.png" width="100" height="100" alt="github_logo"></a>
+      <a href="https://ktbyte.com/coder"><img src="/assets/ktbyte_logo.png" width="100" height="100" alt="ktbyte_logo"></a>
+      <a href="https://pypi.org/"><img src="/assets/pip_logo.png" width="133" height="100" alt="pip_logo"></a>
+      <a href="https://www.gnu.org/software/bash/"><img src="/assets/bash_logo.png" width="100" height="100" alt="bash_logo"></a>
     </div>
     <br>
     <br>
     <h2>DevOps:</h2>
     <div class="row">
-      <a href="https://aws.amazon.com/"><img src="/media/aws_logo.png" width="167" height="100" alt="aws_logo"></a>
-      <a href="https://cloud.google.com/"><img src="/media/gcloud_logo.png" width="100" height="100" alt="gcloud_logo"></a>
+      <a href="https://aws.amazon.com/"><img src="/assets/aws_logo.png" width="167" height="100" alt="aws_logo"></a>
+      <a href="https://cloud.google.com/"><img src="/assets/gcloud_logo.png" width="100" height="100" alt="gcloud_logo"></a>
     </div>
     <br>
     <br>
