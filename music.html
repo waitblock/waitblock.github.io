@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Music</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="green-audio-player/green-audio-player.min.css">
+<script src="green-audio-player/green-audio-player.min.js"></script>
+<link rel="icon" type="image/png" href="https://cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-512.png">
+</head>
+<body>
+
+<div class="header">
+  <h1>Music</h1>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="blog.html">Blog</a>
+  <a href="projects.html">Projects</a>
+  <a href="music.html">Music</a>
+</div>
+<div class="row">
+  <div class="main">
+    <h4>Bustling</h4>
+     <div class="bustling">
+       <audio>
+         <source src="music/Bustling.mp3" type="audio/mpeg">
+       </audio>
+     </div>
+     <h4>Daylight</h4>
+     <div class="daylight">
+       <audio>
+         <source src="music/Daylight.mp3" type="audio/mpeg">
+       </audio>
+     </div>
+     <h4>Rising</h4>
+     <div class="rising">
+       <audio>
+         <source src="music/Rising.mp3" type="audio/mpeg">
+       </audio>
+     </div>
+  	 <br>
+  	 <br>
+  	 <br>
+    <p><i>℗ 2021 waitblock</i></p>
+    <p><i>© 2021 waitblock</i></p>
+    <a href="privacy.html"><sub>Privacy Policy</sub></a>
+  </div>
+</div>
+<script>
+new GreenAudioPlayer('.bustling');
+new GreenAudioPlayer('.daylight');
+new GreenAudioPlayer('.rising');
+</script>
+
+</body>
+</html>
